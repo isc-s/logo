@@ -1,0 +1,12 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "parcel logo.html --no-hmr",
+    "build": "parcel build logo.html --no-source-maps --public-url ./ --out-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "typescript": "^3.3.3333"
+  }
+}
